@@ -6,3 +6,4 @@
 
  - String
  - List
+ - Tuplas
