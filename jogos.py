@@ -5,14 +5,12 @@ def escolhe_jogo():
     print("*******Escolha o seu jogo!*******")
     print("*********************************")
 
-    print("(1) Forca (2) Adivinhação")
+    print("(1) Forca")
 
     jogo = int(input("Qual jogo? "))
 
-    if  jogo == 1:
+    if jogo == 1:
         forca.jogar()
-    elif jogo == 2:
-        adivinhacao.jogar()
 
 if __name__ == "__main__":
     escolhe_jogo()
